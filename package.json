@@ -1,0 +1,22 @@
+{
+  "name": "first-next-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "cnpm": "^6.0.0",
+    "next": "latest",
+    "nprogress": "0.2.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "reactstrap": "7.1.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "deploy": "cd out & now --public"
+  },
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
